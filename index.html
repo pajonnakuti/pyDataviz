@@ -74,7 +74,7 @@
 
         <header class="text-center mb-12 md:mb-16">
             <h1 class="text-4xl md:text-5xl font-bold text-[#005f73]">Your Journey into Oceanographic Visualization</h1>
-            <p class="mt-4 text-lg md:text-xl text-[#0a9396] max-w-3xl mx-auto">A 5-day training course to master data visualization for ocean science using Python.</p>
+            <p class="mt-4 text-lg md:text-xl text-[#0a9396] max-w-3xl mx-auto">A 6-day training course to master data visualization for ocean science using Python.</p>
         </header>
 
         <section class="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-12 border-l-4 border-[#ee9b00]">
@@ -123,12 +123,35 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Day 2 -->
+			
+			<!-- Day 2 -->
             <div class="timeline-item relative pl-20 pb-12">
                 <div class="timeline-marker">2</div>
                 <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 2: Data Handling with Pandas</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 2: Data Handling with Numpy</h2>
+                    <p class="mb-6 text-gray-600">Learn to wrangle data like a pro. Today is all about using the powerful Pandas library to import, clean, and explore oceanographic datasets from common file formats like CSV.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                             <h3 class="font-bold text-lg text-[#0a9396] mb-2">Key Topics:</h3>
+                            <ul class="list-disc list-inside space-y-1 text-gray-700">
+                                <li>Introduction to Arrays</li>
+                                <li>File Handling</li>
+                                <li>Indexing, slicing, and basic functions</li>
+                                <li>DateTime Modules</li>
+                            </ul>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="day2Chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Day 3 -->
+            <div class="timeline-item relative pl-20 pb-12">
+                <div class="timeline-marker">2</div>
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 3: Data Handling with Pandas</h2>
                     <p class="mb-6 text-gray-600">Learn to wrangle data like a pro. Today is all about using the powerful Pandas library to import, clean, and explore oceanographic datasets from common file formats like CSV.</p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -141,17 +164,20 @@
                             </ul>
                         </div>
                         <div class="chart-container">
-                            <canvas id="day2Chart"></canvas>
+                            <!-- <canvas id="day2Chart"></canvas> -->
+							<h4 class="text-center font-semibold mb-2">File handling using Pandas</h4>
+                            <img src="Pandas.png" alt="NOAA Sea Surface Temperature Data" class="w-full h-auto rounded-md shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/400x200/555/FFF?text=Image+Not+Found'">
+                            <p class="mt-2 text-sm text-gray-500 text-center">© Google Image</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Day 3 -->
+            <!-- Day 4 -->
             <div class="timeline-item relative pl-20 pb-12">
                 <div class="timeline-marker">3</div>
                 <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 3: Introduction to Plotting with Matplotlib</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 4: Introduction to Plotting with Matplotlib</h2>
                     <p class="mb-6 text-gray-600">Transform your data into insightful visualizations. We'll use Matplotlib, the cornerstone of Python plotting, to create a variety of fundamental charts like pie and bar charts.</p>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div>
@@ -175,11 +201,11 @@
                 </div>
             </div>
 
-            <!-- Day 4 -->
+            <!-- Day 5 -->
             <div class="timeline-item relative pl-20 pb-12">
                 <div class="timeline-marker">4</div>
                 <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 4: Advanced & Ocean-Specific Visualization</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 5: Advanced & Ocean-Specific Visualization</h2>
                     <p class="mb-6 text-gray-600">Level up your plots with Seaborn for more aesthetic and statistically informative graphics. We will focus on creating visualizations specific to oceanography, such as vertical profiles of temperature and salinity.</p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -197,11 +223,11 @@
                 </div>
             </div>
 
-            <!-- Day 5 -->
+            <!-- Day 6 -->
             <div class="timeline-item relative pl-20">
                 <div class="timeline-marker">5</div>
                 <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 5: Geospatial Data & Pseudo-Color Plots</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#005f73] mb-3">Day 6: Geospatial Data & Pseudo-Color Plots</h2>
                     <p class="mb-6 text-gray-600">The final day brings everything together as we explore geospatial data. You'll learn to handle gridded NetCDF data with Xarray and plot it to create pseudo-color plots, showcasing how to represent spatial patterns.</p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -214,14 +240,14 @@
                             </ul>
                             <div class="mt-6 flex flex-col items-center">
                                 <h4 class="text-center font-semibold mb-2">Sample NetCDF Data from NOAA</h4>
-                                <img src="https://github.com/pajonnakuti/pyDataviz/blob/main/_temp_12.png" alt="NOAA Sea Surface Temperature Data" class="w-full h-auto rounded-md shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/400x200/555/FFF?text=Image+Not+Found'">
+                                <img src="E:\ITCOO\_temp_12.png" alt="NOAA Sea Surface Temperature Data" class="w-full h-auto rounded-md shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/400x200/555/FFF?text=Image+Not+Found'">
                                 <p class="mt-2 text-sm text-gray-500 text-center">A representative image of a NetCDF data product from NOAA, as often seen in oceanography.</p>
                             </div>
                         </div>
                         <div class="chart-container">
                             <!-- <canvas id="day5Chart"></canvas> -->
 							<h4 class="text-center font-semibold mb-2">Sample gridded Data on globe</h4>
-                            <img src="https://github.com/pajonnakuti/pyDataviz/blob/main/globe.PNG" alt="NOAA Sea Surface Temperature Data" class="w-full h-auto rounded-md shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/400x200/555/FFF?text=Image+Not+Found'">
+                            <img src="globe.png" alt="NOAA Sea Surface Temperature Data" class="w-full h-auto rounded-md shadow-lg" onerror="this.onerror=null;this.src='https://placehold.co/400x200/555/FFF?text=Image+Not+Found'">
                             <p class="mt-2 text-sm text-gray-500 text-center">SST Data on globe.</p>
                         </div>
                     </div>
@@ -466,5 +492,3 @@
     </script>
 </body>
 </html>
-
-
