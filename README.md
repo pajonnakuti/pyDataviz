@@ -2,6 +2,7 @@
 
 This course offers a comprehensive, high-level guide to mastering **Python for visualizing oceanographic data**. It’s designed to take learners from foundational concepts to advanced visualization techniques, empowering you to transform complex datasets into clear, impactful visual stories.
 
+# URL : https://pajonnakuti.github.io/pyDataviz/
 ---
 
 ## 📌 1. Course Objectives
